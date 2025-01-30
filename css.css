@@ -1,0 +1,112 @@
+body{
+    background-image:url("skyimage.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    font-size: xxx-large;
+    font-family: "sans-serif";
+
+
+}
+h1:hover{
+    color:darkslategrey;
+}
+button{
+    font-size: xx-large;
+    background-color: coral;
+    border-color: white;
+    color: white;
+}
+button:active{
+    background-color: red;
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+button:disabled{
+    background-color: grey;
+    color: darkslategrey;
+}
+p{
+    background-color: grey;
+    color: chartreuse;
+    font-family: "press start 2p";
+     border-style: solid;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+
+
+
+}
+.container {
+   width: 300px;
+    height: 300px;
+    float:left;
+    margin: 5px;
+    background-color: #ffff66;
+    border: transparent;
+    box-shadow: 5px -5px 15px black ;
+}
+.text{
+    background:transparent;
+    color: black;
+    font-family: "sans-serif";
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    float: left;
+    resize: none;
+    position: relative;
+    margin-top: 20px;
+    border: transparent;
+    font-size: xx-large;
+
+
+
+
+
+}
+#hyperlink{
+    position: fixed;
+    bottom: 0px;
+    border: solid;
+    border-bottom-width: 0px;
+
+    background: transparent;
+    color: black;
+
+}
+a:link{
+    font-size: xx-large;
+    color: black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color: black;
+}
+.cross{
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    position: relative;
+    bottom: 300px;
+    left: 84%;
+    background-color: transparent;
+    border:transparent;
+}
+.cross:hover{
+    cursor: pointer;
+}
+.cross:active{
+    color: red;
+    background-color:transparent;
+}
