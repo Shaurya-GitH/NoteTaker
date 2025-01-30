@@ -75,9 +75,9 @@ p{
 }
 #hyperlink{
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     border: solid;
-    border-bottom-width: 0px;
+    border-bottom-width: 0;
 
     background: transparent;
     color: black;
@@ -96,7 +96,7 @@ a:hover{
 .cross{
     height: 50px;
     width: 50px;
-    margin-left: 0px;
+    margin-left: 0;
     position: relative;
     bottom: 300px;
     left: 84%;
