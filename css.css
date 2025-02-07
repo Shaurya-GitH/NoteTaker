@@ -1,36 +1,58 @@
+
 body{
     background-image:url("skyimage.jpg");
+    /*background: rgb(68,147,105);*/
+    /*background: radial-gradient(circle, rgba(68,147,105,1) 0%, rgba(20,73,20,1) 100%);*/
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
 h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
     color: white;
     font-size: xxx-large;
     font-family: "sans-serif";
-
-
 }
 h1:hover{
-    color:darkslategrey;
+    color:black ;
 }
-button{
-    font-size: xx-large;
-    background-color: coral;
-    border-color: white;
+#division{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 10px;
+}
+#add{
+    font-size: x-large;
+    background: rgb(199,125,125);
+    background: radial-gradient(circle, rgba(199,125,125,1) 0%, rgba(251,3,3,1) 100%);
     color: white;
+    border-radius: 10px;
+    border:  outset;
+    box-shadow: 0px 3px 2px black;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
 }
-button:active{
+#add:hover{
+    box-shadow: 0px 0px 0px;
+    position:relative;
+    top:3px
+}
+#add:active{
     background-color: red;
     color: black;
 }
 button:hover{
     cursor: pointer;
 }
-button:disabled{
+#add:disabled{
     background-color: grey;
     color: darkslategrey;
+    background: grey;
 }
 p{
     background-color: grey;
@@ -52,6 +74,7 @@ p{
     background-color: #ffff66;
     border: transparent;
     box-shadow: 5px -5px 15px black ;
+    margin-bottom: 10px;
 }
 .text{
     background:transparent;
@@ -94,6 +117,8 @@ a:hover{
     color: black;
 }
 .cross{
+    color: white;
+    font-size: xx-large;
     height: 50px;
     width: 50px;
     margin-left: 0;
@@ -102,6 +127,7 @@ a:hover{
     left: 84%;
     background-color: transparent;
     border:transparent;
+    background: transparent;
 }
 .cross:hover{
     cursor: pointer;
