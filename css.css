@@ -1,4 +1,4 @@
-
+@import "tailwindcss";
 body{
     background-image:url("skyimage.jpg");
     /*background: rgb(68,147,105);*/
